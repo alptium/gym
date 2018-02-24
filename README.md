@@ -1,2 +1,2 @@
-# Alptium Gym
-Alptium Gym
+# Alptium Personal Fitness
+Alptium Personal Fitness
