@@ -1,2 +1,2 @@
-# gym
+# Alptium Gym
 Alptium Gym
