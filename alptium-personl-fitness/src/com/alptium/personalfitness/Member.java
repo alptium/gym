@@ -3,8 +3,7 @@ package com.alptium.personalfitness;
 public class Member {
 
 	// Members info
-	
-<<<<<<< HEAD
+
 	private String firstName;
 	private String lastName;
 	private int birthYear;
@@ -44,17 +43,6 @@ public class Member {
 		
 			} public boolean getHasInjuries() {
 			return hasInjuries;
-=======
-	private String  firstName;
-	private String lastName;
-	private int birthYear;
-	private String memberId;
-	private String gender;
-	private String address;
-	private boolean hasInjuries;
-	
-	public Member(String firstName, String lastName, int birthYear, String memberId, String gender, String address, boolean hasInjuries) {
->>>>>>> fed1765e42933a514fa4a1b89c895c7834633999
 		
 	}
 }
