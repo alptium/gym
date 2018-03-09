@@ -4,15 +4,15 @@ public class Member {
 
 	// Members info
 	
-	private String  firstname;
+	private String  firstName;
 	private String lastName;
 	private int birthYear;
-	private String memberid;
+	private String memberId;
 	private String gender;
 	private String address;
-	private boolean hadinjuries;
+	private boolean hasInjuries;
 	
-	public Member(String firstName, String lastName, int birthYear, String memberid, String gender, String address, boolean hadinjuries) {
+	public Member(String firstName, String lastName, int birthYear, String memberId, String gender, String address, boolean hasInjuries) {
 		
 	}
 }
