@@ -47,8 +47,13 @@ public class Main {
 			System.out.println("Please enter member's address:");
 			String address = sc.next();
 			
+<<<<<<< HEAD
 			System.out.println("Does member have any injuries: true or false?");
 			boolean hasInjuries = sc.hasNext();
+=======
+			System.out.println("Does member have any injuries?");
+			boolean hasInjuries = sc.nextBoolean();
+>>>>>>> e67a201665f7aea0bce3e8eb1ce6ffb639acac22
 			
 			Member member = new Member (firstName, lastName, birthYear, memberId, gender, address, hasInjuries);
 			System.out.println("File for new member has been done. Check data before saving!");
@@ -58,8 +63,7 @@ public class Main {
 			System.out.println("Member's gender: " + member.getGender());
 			System.out.println("Member's address: " + member.getAddress());
 			System.out.println("Does member have any injuries? " + member.getHasInjuries());
-			
-
+		
 		}
 		
 	}
