@@ -5,12 +5,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-	
-}
-
-}
-=======
 		
 		try(Scanner sc = new Scanner(System.in)) {
 			
@@ -72,9 +66,7 @@ public class Main {
 
 	private static void runDemoTrainer() {
 		
-			
-		}
 		
 	}
 
->>>>>>> 05f615a832ac9ecd5827550682e964ee7a97e393
+}
