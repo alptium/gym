@@ -4,8 +4,7 @@ public class Workout {
 		
 		private char gender;
 		private boolean injuries;
-		private String workoutM;
-		private String workoutF;
+		private String workoutF,workoutM;
 		
 		public Workout (char gender, boolean injuries, String workoutM, String workoutF) {
 			
