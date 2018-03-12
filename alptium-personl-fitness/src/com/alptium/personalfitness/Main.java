@@ -19,7 +19,7 @@ public class Main {
 				runDemoTrainer();
 			} else if (detailsType.equals("member")) {
 				runDemoMember();
-			
+		
 			}
 			
 		}
@@ -47,7 +47,7 @@ public class Main {
 				System.out.println("Please enter member's address:");
 				String address = sc.next();
 				
-				System.out.println("Does member have any injuries?");
+				System.out.println("Does member have any injuries? True or false");
 				boolean hasInjuries = sc.nextBoolean();
 				
 				Member member = new Member (firstName, lastName, birthYear, memberId, gender, address, hasInjuries);
@@ -59,7 +59,8 @@ public class Main {
 				System.out.println("Member's address: " + member.getAddress());
 				System.out.println("Does member have any injuries? " + member.getHasInjuries());
 		
-
+				System.out.println("===================================================================");
+				
 				System.out.println("Please chose your next step.");
 				System.out.println("Do you want to enter details about new trainer or new member?");
 				System.out.println("If your choise is trainer, please type TRAINER");
@@ -80,13 +81,13 @@ public class Main {
 		
 		try(Scanner sc = new Scanner(System.in)) {
 			
-				System.out.println("Enter the first name of  trainer:");
+				System.out.println("Enter the first name of trainer:");
 				String name = sc.next();
 				System.out.println("Enter the last name of trainer:");
 				String surname = sc.next();
-				System.out.println("Enter years of experience trainer:");
+				System.out.println("Enter how many years of experience trainer has:");
 				int yearsOfExperience = sc.nextInt();
-				System.out.println("Enter the availability of the trainer:");
+				System.out.println("Enter the availability of the trainer. True or false?");
 				boolean isAvailable = sc.nextBoolean();
 			
 				Trainer trainer = new Trainer (name, surname, yearsOfExperience, isAvailable);
@@ -96,6 +97,8 @@ public class Main {
 				System.out.println("Trainer surname: " + trainer.getSurname());
 				System.out.println("Trainer years of expriance: " + trainer.getYearsOfExperience());
 				System.out.println("Availability of the trainer: " + trainer.getIsAvailable());
+				
+				System.out.println("=========================================================");
 				
 				System.out.println("Please chose your next step.");
 				System.out.println("Do you want to enter details about new trainer or new member?");
@@ -109,6 +112,7 @@ public class Main {
 					runDemoMember();
 				
 				}
+					
 		}
 	
 	}	
