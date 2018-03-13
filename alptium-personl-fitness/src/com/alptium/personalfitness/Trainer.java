@@ -4,10 +4,10 @@ public class Trainer {
 	
 	private String name;
 	private String surname;
-	private boolean yearsOfExperience;
+	private int yearsOfExperience;
 	private boolean isAvailable;
 	
-	public Trainer(String name, String surname, boolean yearsOfExperience, boolean isAvailable) {
+	public Trainer(String name, String surname, int yearsOfExperience, boolean isAvailable) {
 		this.name = name;
 		this.surname = surname;
 		this.yearsOfExperience = yearsOfExperience;
@@ -22,12 +22,12 @@ public class Trainer {
 		return surname;
 	}
 		
-	public boolean isAvailable() {
-		return isAvailable;
+	public int getYearsOfExperience() {
+		return yearsOfExperience;
 	}
 
-	public boolean yearsOfExperience() {
-		return yearsOfExperience;
+	public boolean getIsAvailable() {
+		return isAvailable;
 	}
 	
 }
